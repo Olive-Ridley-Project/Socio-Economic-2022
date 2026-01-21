@@ -9,9 +9,9 @@ Responses (Raw Data) - contains anonymised responses to survey
 results_summary - summary of Responses (Raw Data) 
 results_estimated_revenue - revenue calculations for Responses (Raw Data)
 results_ranking - where sea turtles ranked among marine megafauna that guests most wanted to see and other megafauna that ranked higher than sea turtles, according to snorkel and dive operators
-results_per_turtle_value_dives - 
-results_per_turtle_value_snorkels - 
+results_per_turtle_value_dives - finanacial values for sea turtle dive sites
+results_per_turtle_value_snorkels - finanacial values for sea turtle snorkel sites
 results_tables - 
-GIS_Per_turtle_value - 
-PIVOT_GIS_value - 
+GIS_Per_turtle_value - standardises the Responses (Raw Data) atolls to GIS shapefile naming conventions
+PIVOT_GIS_value - summarises the GIS value per atoll for all income generated from sea turtle dive and snorkel trips
 Additional_Dive Sites - 
