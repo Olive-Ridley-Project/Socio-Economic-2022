@@ -6,8 +6,28 @@
    See the [LICENSE](LICENSE) file for details or visit https://creativecommons.org/licenses/by-nc/4.0/
 
 Responses (Raw Data) - contains anonymised responses to survey
-results_summary - summary of Responses (Raw Data) 
+results_summary - summary of Responses (Raw Data)
+      *Participant_no. - unique anonymised assigned to each survey participant
+      *Operator - Unique identifier for each tour operator (note: some operators operate from multiple locations)
+      *Location (atoll) - Administrative atoll in which the tour operator is based
+      *Operator Base - Administrative atoll in which the tour operator is based
+      *Operator Type - Primary function or service category of the tour operator
+      *Advertised Sea Turtle Excursions - Indicates whether the operator advertises sea turtle excursions, and the type(s) of excursions offered
+      *Guest requests for sea turtles per month - Estimated frequency with which guests request sea turtle encounters at a given operator
+
 results_estimated_revenue - revenue calculations for Responses (Raw Data)
+      *Average trips per week - mean number of trips conducted per week by the opeartor for the relevant excursion type
+      *Cost range per guest US$ - binned cost category indicating the advertised price range per guest for a sea turtle excursion (e.g. US$26–50, US$51–75, US$76–100)
+      *Min cost per guest US$ - lower-bound cost per guest derived from the reported cost range category
+      *Max cost per guest US$ - upper-bound cost per guest derived from the reported cost range category
+      *Average guests per trip - mean number of guests participating per trip
+      *Min estimated revenue US$ - conservative annual estimate of revenue generated from sea turtle excursions, based on lower-bound pricing assumptions.
+      *Max estimated revenue US$ - upper-bound annual estimate of revenue generated from sea turtle excursions, based on higher-end pricing assumptions
+      *Sea turtle specialty course (Y/N) – indicates whether the operator offers a sea turtle–specific specialty course
+      *Number sold in 2022 – iotal number of sea turtle specialty courses sold by the operator during the 2022 calendar year.
+      *Cost per person – price charged per participant for a sea turtle specialty course.
+      *Revenue from courses US$ – total revenue generated from sea turtle specialty courses during the 2022 calendar year.
+
 results_ranking - where sea turtles ranked among marine megafauna that guests most wanted to see and other megafauna that ranked higher than sea turtles, according to snorkel and dive operators
 results_per_turtle_value_dives - finanacial values for sea turtle dive sites
 results_per_turtle_value_snorkels - finanacial values for sea turtle snorkel sites
